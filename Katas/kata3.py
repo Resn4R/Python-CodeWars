@@ -42,3 +42,5 @@ def rps(p1, p2):
         case _: return
 
     #please refactor, wtf is this
+
+    print(rps("scissors"))
