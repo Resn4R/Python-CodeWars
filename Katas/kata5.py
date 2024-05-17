@@ -9,10 +9,11 @@ Input will consist of a list of pairs. Each pair contains information for a sing
 '''
 
 def open_or_senior(data):
-    a=[]
+   ''' a=[]
     for age, handicap in data:
         a.append('Senior' if age > 54 and handicap > 7 else 'Open')
-    return a
-
+    return a'''
+   #first refactor
+   return ["Senior" if age > 54 and handicap > 7 else "Open" for age,handicap in data]
             
 
