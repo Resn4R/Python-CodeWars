@@ -21,9 +21,14 @@ class TestFizzBuzz(unittest.TestCase):
     def test_fizz_3_should_return_fizz(self):
         number = 3
         sampleFB = isfizzbuzz(number)
-        self.assertEqual(sampleFB, "fizz", f"Result should be fizz, as the number is divisible by 3")
+        self.assertEqual(sampleFB, "fizz", "Result should be fizz, as the number is divisible by 3")
 
     def test_fizz_5_should_return_buzz(self):
         number = 5
         sampleFB = isfizzbuzz(number)
-        self.assertEqual(sampleFB, "buzz", f"Result should be buzz, as the number is divisible by 3")
+        self.assertEqual(sampleFB, "buzz", "Result should be buzz, as the number is divisible by 3")
+
+    def test_fizz_15_should_return_buzz(self):
+        number = 15
+        sampleFB = isfizzbuzz(number)
+        self.assertEqual(sampleFB, "fizzbuzz", "Result should be fizzbuzz, as the number is divisible by 3")
