@@ -1,5 +1,3 @@
-import unittest
-
 '''
 fizzbuzz 
 if n % 3 = fiz
