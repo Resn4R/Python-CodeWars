@@ -17,3 +17,5 @@ print(cards)
 import statistics 
 grades = [100,90]
 print( statistics.mean(grades) )
+
+import sys #can be used for CLI parameters
