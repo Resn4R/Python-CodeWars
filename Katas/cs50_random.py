@@ -13,3 +13,7 @@ cards = ["jack", "queen", "king"]
 print (cards)
 random.shuffle(cards)
 print(cards)
+
+import statistics 
+grades = [100,90]
+print( statistics.mean(grades) )
