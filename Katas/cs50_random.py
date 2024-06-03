@@ -20,3 +20,4 @@ print( statistics.mean(grades) )
 
 import sys #can be used for CLI parameters
 print("Hello, my name is " + sys.argv[1])
+
